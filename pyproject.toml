@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pydecima"
+version = "1.0.0"
+authors = [
+  { name="Bearborg" },
+]
+description = "Tools for reading files from the Decima game engine."
+readme = "README.md"
+license = { file="LICENSE" }
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/Bearborg/pydecima"
+"Bug Tracker" = "https://github.com/Bearborg/pydecima/issues"
